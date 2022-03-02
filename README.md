@@ -5,6 +5,7 @@ I wrote some code for my Computer Architecture final project in FA21 that allowe
 
 EXAMPLE INIT FUNCTION IN MAIN.CPP:
 
+```cpp
 //-------------------------Graphics Data-------------------------
 
 GraphicsLibrary* pGraphics;
@@ -28,9 +29,7 @@ const std::string BACKGROUND_IMAGE_FILE = "Background_Image.jpg";
 const std::string backgroundImageSprite = "background_image_image";
 
 bool init()
-
 {
-	
 	bool bSuccessfulInit = false;
 
 	//Setup the graphical window
@@ -48,3 +47,4 @@ bool init()
 	//Init and return if it succeeded or not
 	return bSuccessfulInit;
 }
+```
