@@ -30,6 +30,7 @@ const std::string backgroundImageSprite = "background_image_image";
 bool init()
 
 {
+	
 	bool bSuccessfulInit = false;
 
 	//Setup the graphical window
