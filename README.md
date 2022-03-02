@@ -6,18 +6,22 @@ I wrote some code for my Computer Architecture final project in FA21 that allowe
 EXAMPLE INIT FUNCTION IN MAIN.CPP:
 
 //-------------------------Graphics Data-------------------------
+
 GraphicsLibrary* pGraphics;
 float screenSizeX = 1600.0;
 float screenSizeY = 900.0;
 
 //-------------------------Input Data-------------------------
+
 InputSystem* pInput;
 
 //-------------------------Assets-------------------------
+
 const std::string ASSET_PATH = "..\\Assets\\";
 const std::string BACKGROUND_IMAGE_FILE = "Background_Image.jpg";
 
 //-------------------------Asset Identifiers-------------------------
+
 const std::string backgroundImageSprite = "background_image_image";
 
 bool init()
